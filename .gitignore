@@ -1,0 +1,57 @@
+# ---------- Unity / 团结引擎 生成物 ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------- 本项目的运行产物 / 私有目录（不上传） ----------
+# 游戏录像与截图（1.5GB）
+Captures/
+# 原始素材中转
+Incoming/
+# 各 AI 会话的对话记录（隐私：含协作过程与上下文）
+对话记录/
+# 历史备份与临时报告
+Backups/
+Report/
+Logs/
+# 打包产物（游戏本体走 GitHub Releases，不进仓库）
+Build/
+
+# ---------- 大尺寸美术贴图（用户选定：仓库只带源码 + 模型） ----------
+# Art/ 下的 171 张渲染贴图共 527MB（Map 320MB / Tripo 143MB / Scene 49MB / Ground 13MB）；
+# 仓库保留 Resources/ 下代码运行时加载的 127 张贴图（50.7MB：VFX/UI/Menu/NodeIcons/Pad/Cyber）。
+# 克隆后工程可打开、可编译、可跑，但 Art 贴图会缺失（材质显示为未贴图状态）——补齐方法见 README「素材说明」。
+Assets/BlackTide/Art/**/*.png
+Assets/BlackTide/Art/**/*.png.meta
+# 开发期截图（非工程资产）
+Assets/Screenshots/
+
+# ---------- 其它 ----------
+.vs/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.zip
+*.7z
+*.rar
+crashlytics-build.properties
+sysinfo.txt
