@@ -55,3 +55,6 @@ Thumbs.db
 *.rar
 crashlytics-build.properties
 sysinfo.txt
+
+# 一次性提交信息文件
+.commitmsg.txt
