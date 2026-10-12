@@ -58,3 +58,14 @@ sysinfo.txt
 
 # 一次性提交信息文件
 .commitmsg.txt
+
+# 未上传的资产树：meta 保留在本地（避免 Unity 重新生成 GUID 导致场景/预制体引用丢失），但不进仓库
+Assets/BlackTide/Art/
+Assets/BlackTide/Anim/
+Assets/BlackTide/Resources/
+Assets/BlackTide/AudioCredits.md
+Assets/BlackTide/README*.txt
+Assets/README_BlackTide.txt*
+Assets/Screenshots.meta
+Tools/
+reports/
